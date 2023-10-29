@@ -4,20 +4,20 @@ body {
 }
 h1 {
     font-size: 18px;
-    -webkit- transition: max-height 0.7s;
-    -mox- transition: max-height 0.7s;
+    -webkit-transition: max-height 0.7s;
+    -mox-transition: max-height 0.7s;
     transition: max-height 0.7s;
 }
 h1.mouse {
     font-size: 64px;
-     -webkit- transition: max-height 0.7s;
-    -mox- transition: max-height 0.7s;
+     -webkit-transition: max-height 0.7s;
+    -mox-transition: max-height 0.7s;
     transition: max-height 0.7s;
 }
 h1:hover{
     font-size: 64px;
-    -webkit- transition: max-height 0.7s;
-    -mox- transition: max-height 0.7s;
+    -webkit-transition: max-height 0.7s;
+    -mox-transition: max-height 0.7s;
     transition: max-height 0.7s;
 }
 #sms {
@@ -50,8 +50,8 @@ h1:hover{
 
 #image.appear{
     opacity: 1;
-    -webkit- transition: max-height 0.7s;
-    -mox- transition: max-height 0.7s;
+    -webkit-transition: max-height 0.7s;
+    -mox-transition: max-height 0.7s;
     transition: max-height 0.7s;
 }
 #color-changer{
@@ -59,7 +59,7 @@ h1:hover{
     width: 200px;
     height: 200px;
     margin: 20 auto;
-   -webkit- transition: max-height 0.7s;
-    -mox- transition: max-height 0.7s;
+   -webkit-transition: max-height 0.7s;
+    -mox-transition: max-height 0.7s;
     transition: max-height 0.7s; 
 }
