@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="jewelry, sale, online" />
+  <meta description="jewelry-for-sale" />
+  <title>Zoe's Jewelry</title>
+  <link rel="stylesheet" type="text/css" href="../css/main.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+</head>
+
+<body>
+  <div id="top"></div>
+  <div class="flex-container">
+    <div>Home</div>
+    <div>About Us</div>
+    <div>Catalogs</div>
+    <div>Search</div>
+    <input type="text" name="Search">
+  </div>
+  <div id="banner"></div>
+
+  <div id="header" class="page1">
+    <h3 id="page-title">Jewelry from Zoe's online shop</h3>w
+    <hr>
+  </div>
+  <div id="catalog">
+    <div id="Earrings">
+      <h2>Earring Types</h2>
+      <ol>
+        <p>Winter collection</p>
+        <p>Summer Collection</p>
+        <p>Casual collection</p>
+        <p>Rings collection coming soon</p>
+        <a onclick="alert('you are leaving this page');" href="../photos/earrings.html"><strong>Click for
+            catalogue</strong></a>
+      </ol>
+    </div>
+    <div id="Necklace">
+      <h2>Necklace Edition</h2>
+      <ol>
+        <p>Vintage collection</p>
+        <p>Fashion collection</p>
+        <p>Handmade collection</p>
+        <p>Rings collection coming soon</p>
+        <a href="../photos/necklace.html">Click for catalogue</a>
+      </ol>
+    </div>
+  </div>
+  <div id="mainimage">
+
+    <div class="swiper">
+
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="../img/earrings.jpeg" /></div>
+        <div class="swiper-slide"><img src="../img/58-mystik-nk-197.jpg" /></div>
+        <div class="swiper-slide"><img src="../img/bracelets.jpeg" /></div>
+        <div class="swiper-slide"><img src="../img/rings.jpeg" /></div>
+      </div>
+
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+    </div>
+  </div>
+  <div id="contact">
+    <h3>Types of contact</h3>
+    <span>Telephone:0696969696</span>
+    <span>Via mail:html@Html.com</span>
+    <span>Our website: Zoes-jewelry.com</span>
+    <span>Social Media: Instagram Page</span>
+  </div>
+  <div id="link">
+    <ul>
+      <li><a id="you" class="tube"
+          href="https://www.youtube.com/watch?v=GVocONem9lw&list=PL4cUxeGkcC9gQeDH6xYhmO-db2mhoTSrT&index=18">youtube</a>
+      </li>
+      <li><a href=index.html id="top">Back to top</a></li>
+    </ul>
+  </div>
+
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.swiper', {
+      autoplay: {
+        delay: 2000,
+        disableOnInteraction: false,
+      },
+      loop: true,
+
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+
+    });
+  </script>
+</body>
+
+</html>

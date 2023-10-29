@@ -1,0 +1,106 @@
+body {
+    min-width: 1000px;
+    background-color: black ! important;
+}
+.marquee{ 
+    border: 3px solid red;
+    color: white;
+    background-color: black;
+    white-space: nowrap;
+    overflow: hidden;
+    padding-left: 20%;
+    display: inline-block;
+}
+.flex-container a{
+    border: none;
+}
+.flex-container a:visited{
+    color: darkgoldenrod;
+}
+.marquee div{
+    animation: animate 25s linear infinite;
+}
+@keyframes animate{
+    0%{
+        transform: translate(0,0);
+    }
+    100%{
+        transform: translate(-100%,0)
+    }
+    
+}
+.flex-container div{
+    display: inline-block;
+    border: 1px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding: 5px;
+    text-align: right;
+    font-style: oblique;
+    text-decoration: underline;
+    box-shadow: 2px -2px grey;
+    color: darkgoldenrod;
+}
+.flex-container{
+    text-align: right;
+}
+.flex-container div:hover{
+    color: white;
+    box-shadow: 2px -2px darkgoldenrod;
+}
+#header {
+    text-transform: uppercase;
+    letter-spacing: 50px;
+    padding: 10px;
+    text-align: center;
+    font-size: 32px;
+    background-image: linear-gradient(to right top,gold,  silver, gold, goldenrod);
+    
+}
+#images{
+    
+    word-spacing: 30px;
+    display: inline-block;
+}
+#prices p{
+    display: inline-block;
+    width: 50px;
+    word-spacing: normal;
+    margin: 92px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    background-image: linear-gradient(to right , red,black,red);
+    color: white;
+}
+/*
+#prices p:nth-of-type(3){
+    margin-left: 130px;
+}*/
+#ordering{
+    list-style-type: none;
+}
+#ordering li{
+    display: inline-block;
+    margin: 80px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    color: blue;
+}
+#ordering li:hover{
+    color: white;
+    background-color: goldenrod; 
+}
+a{
+    display: block;
+    text-decoration: none;
+    border: 1px solid;
+    width: 6%;
+    text-align: center;
+}
+a:hover{
+    color: white;
+    background-color: goldenrod;
+}

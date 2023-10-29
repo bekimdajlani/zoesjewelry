@@ -1,0 +1,243 @@
+    .flex-container div{
+    color: darkgoldenrod;
+    display: inline-block;
+    border: 1px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding: 5px;
+    text-align: right;
+    font-style: oblique; 
+    box-shadow: 2px -2px grey ;
+    cursor: pointer;
+    
+}
+.flex-container{
+    text-align: right;
+}
+.flex-container :hover{
+    color: white;
+    box-shadow: 2px -2px darkgoldenrod;
+}
+#header h1{
+    color: goldenrod;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-size: 48px;
+    word-spacing: 30px;
+}
+#header h3{
+color: gold;
+text-decoration: underline;
+text-transform: uppercase;
+    text-align: center;
+     min-width: 100%;
+    width: auto;
+    height: 10px;
+    font-size: 38px;
+    letter-spacing: 5px;
+    word-spacing: 30px;
+    margin-right: 5px;
+    margin-top: 20px;
+}
+#banner{
+    border: 2px solid black;
+    height: 400px;
+    width: 100%;
+    background-image: url("../img/imageForSharing.png");
+    background-size: cover;
+    
+}
+body {
+    width: 100%;
+}
+
+#mainimage{
+    display: flex;
+    text-align: center;
+}
+h2 {
+    
+    font-size: 2em ;
+    
+}
+/* font-family : arial, helvetic, sans-serif; */
+/*
+*{
+    
+    font-style: italic;
+} 
+*/
+#contact {
+    font-style: italic;
+    color: blue;
+
+}
+
+#contact h1 {
+    
+    background-color: azure;
+    
+}
+/*eshte komand komenti perdoret . kurse id duhet me # */
+
+.phone{
+    
+    font-size: 32px;
+    
+}
+
+body {
+    
+    background-image: url(../img/making%20jewelrz.jpg);
+    min-width: 100%;
+    object-fit:fill;
+}
+
+p {
+    
+    color: darkblue;
+}
+/* ket > shigjeten per specifikime kur ke div mrena div perdor ate child selector quhet */
+
+
+a[href$="html"]{
+    
+    color: red;
+}
+/* kur do me ndryshu vetem 1 rresht e identifikon me ate me siper + ate qe ndryshon. pjesen important sepse me lart i kam dhen komand me ngjyre tjeter te gjith p-ve. hoqa funksionin ol se nuk e merrte. */
+
+#Earrings h2 + p{
+    
+    color: purple! important ;
+    
+}
+#Earrings h2{
+    
+    margin-left: 40px;
+    color: aqua;
+}
+#Necklace h2{
+    color: aqua;
+    
+}
+#Necklace{
+    padding: 30px;
+    width: 300px;
+    height: 300px;
+    border: 2px solid #008;
+    display: inline-block;
+    background-image: url(../img/white%20necklace.jpeg);
+    background-size: contain;
+    
+}
+#Earrings{
+    padding: 30px;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    border: 4px solid #008;
+    border-radius: 20px;
+    border-color: aqua;
+    background-image: url(../img/white%20ring.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* bohet dhe me nr nthchild(1), nthchild(4) */
+p:nth-child(even){
+    
+   font-weight: bold;
+}
+
+a[id="top"]{
+    
+    color: white;
+    font: bold;
+    font-size: 28px;
+    display: block;
+    border: 3px solid lightblue;
+    position: relative;
+    z-index: 10;
+    border-radius: 5px;
+    box-shadow: 5px -4px grey;
+    width: 10%;
+    text-align: center;
+}
+a[href^="https"]{
+    
+    color: black;
+}
+a:hover{
+    
+    background-color: #D46904;
+    color: aliceblue;
+    
+    
+}
+a:active{
+    color: black;
+}
+
+#contact h3{
+    
+    font-size: 32px;
+    margin-left: 50px;
+    text-decoration: underline;
+    display: block;
+    border: 2px solid blue;
+    width: 15%;
+    background-image: linear-gradient(to top , white , goldenrod);
+    text-align: center;
+}
+
+span:nth-of-type(3){
+    
+    background-color:black;
+    text-decoration: underline;
+    color: white;
+}
+span {
+    line-height: 36px;
+    margin: 30px;
+    padding: 30px;
+    width: 300px;
+    height: 300px;
+    
+}
+#link {
+    margin: 40;
+    padding: 50px;
+    
+}
+
+/* background image futet { 
+background: url ()
+}
+*/
+
+
+.swiper{
+ width: 450px;
+ border: 1px solid black;
+ height: 420px;
+}
+
+.swiper-slide img{
+    width: 100%
+}
+.swiper .swiper-button-next , .swiper .swiper-button-prev{
+    color: white;
+}
+.swiper .swiper-pagination-bullet {
+    background-color: white;
+    
+}
+#catalog{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5%;
+}

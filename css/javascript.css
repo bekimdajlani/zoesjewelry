@@ -1,0 +1,65 @@
+body {
+    background-color: lightblue;
+    
+}
+h1 {
+    font-size: 18px;
+    -webkit- transition: max-height 0.7s;
+    -mox- transition: max-height 0.7s;
+    transition: max-height 0.7s;
+}
+h1.mouse {
+    font-size: 64px;
+     -webkit- transition: max-height 0.7s;
+    -mox- transition: max-height 0.7s;
+    transition: max-height 0.7s;
+}
+h1:hover{
+    font-size: 64px;
+    -webkit- transition: max-height 0.7s;
+    -mox- transition: max-height 0.7s;
+    transition: max-height 0.7s;
+}
+#sms {
+    margin: auto;
+    border: dashed red ;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+#sms.open{
+    height: 820px;
+}
+#show{
+    border: 1px solid blue;
+    display: block;
+    width: 140px;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    padding: 2px;
+    margin: 20px auto;
+    padding: 10px;
+    cursor: pointer;
+}
+#image{
+    text-align: center;
+    font-weight: bold;
+    opacity: 0;
+}
+
+#image.appear{
+    opacity: 1;
+    -webkit- transition: max-height 0.7s;
+    -mox- transition: max-height 0.7s;
+    transition: max-height 0.7s;
+}
+#color-changer{
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    margin: 20 auto;
+   -webkit- transition: max-height 0.7s;
+    -mox- transition: max-height 0.7s;
+    transition: max-height 0.7s; 
+}
